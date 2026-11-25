@@ -1,0 +1,43 @@
+# Virtual Environment
+backend/venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+backend/backtest_history.db
+
+# Node / Frontend
+frontend/node_modules/
+node_modules/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large Media / Video (>50MB)
+add_data/media/4608285-uhd_3840_2160_24fps.mp4
+
+# Model weights (auto-downloaded by ultralytics)
+yolov8n.pt
+backend/models/yolov8n.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local

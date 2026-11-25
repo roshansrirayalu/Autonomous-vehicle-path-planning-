@@ -1,0 +1,50 @@
+{
+  "id": "custom_construction_zone",
+  "name": "Construction Zone Lane Nudge",
+  "category": "custom",
+  "road": {
+    "lanes": 3,
+    "lane_width_m": 3.5,
+    "length_m": 240,
+    "curvature": 0.00004,
+    "lane_visibility": 0.95
+  },
+  "ego_start": {
+    "x": 0.0,
+    "y": 1.75,
+    "speed_mps": 14.0,
+    "max_speed_mps": 18.0
+  },
+  "obstacles": [
+    {
+      "id": "construction_cones_1",
+      "type": "roadblock",
+      "x": 60.0,
+      "y": 1.75,
+      "vx": 0.0,
+      "vy": 0.0,
+      "width": 1.5,
+      "length": 3.0
+    },
+    {
+      "id": "construction_worker",
+      "type": "pedestrian",
+      "x": 68.0,
+      "y": 0.5,
+      "vx": 0.2,
+      "vy": 0.1,
+      "width": 0.6,
+      "length": 0.6
+    },
+    {
+      "id": "middle_lane_cruiser",
+      "type": "vehicle",
+      "x": 90.0,
+      "y": 5.25,
+      "vx": 12.0,
+      "vy": 0.0,
+      "width": 2.0,
+      "length": 4.6
+    }
+  ]
+}

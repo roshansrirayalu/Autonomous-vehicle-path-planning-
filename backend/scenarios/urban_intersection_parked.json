@@ -1,0 +1,50 @@
+{
+  "id": "urban_intersection_parked",
+  "name": "Urban Intersection & Parked Obstacles",
+  "category": "urban",
+  "road": {
+    "lanes": 2,
+    "lane_width_m": 3.5,
+    "length_m": 220,
+    "curvature": 0.0,
+    "lane_visibility": 0.95
+  },
+  "ego_start": {
+    "x": 0.0,
+    "y": 1.75,
+    "speed_mps": 11.0,
+    "max_speed_mps": 14.0
+  },
+  "obstacles": [
+    {
+      "id": "double_parked_van",
+      "type": "vehicle",
+      "x": 55.0,
+      "y": 1.75,
+      "vx": 0.0,
+      "vy": 0.0,
+      "width": 2.2,
+      "length": 5.2
+    },
+    {
+      "id": "oncoming_car",
+      "type": "vehicle",
+      "x": 130.0,
+      "y": 5.25,
+      "vx": -8.5,
+      "vy": 0.0,
+      "width": 1.9,
+      "length": 4.5
+    },
+    {
+      "id": "urban_cyclist",
+      "type": "bicycle",
+      "x": 30.0,
+      "y": 0.5,
+      "vx": 4.0,
+      "vy": 0.0,
+      "width": 0.8,
+      "length": 1.8
+    }
+  ]
+}

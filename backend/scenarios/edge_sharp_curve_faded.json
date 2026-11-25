@@ -1,0 +1,40 @@
+{
+  "id": "edge_sharp_curve_faded",
+  "name": "Edge Case: Sharp Curve with Missing/Faded Lane Markings",
+  "category": "edge_case",
+  "road": {
+    "lanes": 2,
+    "lane_width_m": 3.6,
+    "length_m": 250,
+    "curvature": 0.00015,
+    "lane_visibility": 0.35
+  },
+  "ego_start": {
+    "x": 0.0,
+    "y": 1.8,
+    "speed_mps": 14.0,
+    "max_speed_mps": 16.0
+  },
+  "obstacles": [
+    {
+      "id": "curve_stalled_car",
+      "type": "vehicle",
+      "x": 110.0,
+      "y": 1.8,
+      "vx": 0.0,
+      "vy": 0.0,
+      "width": 2.1,
+      "length": 4.8
+    },
+    {
+      "id": "curve_guardrail_debris",
+      "type": "roadblock",
+      "x": 80.0,
+      "y": -0.2,
+      "vx": 0.0,
+      "vy": 0.0,
+      "width": 1.0,
+      "length": 2.0
+    }
+  ]
+}

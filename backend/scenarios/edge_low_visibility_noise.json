@@ -1,0 +1,50 @@
+{
+  "id": "edge_low_visibility_noise",
+  "name": "Edge Case: Low-Visibility / High Sensor Noise",
+  "category": "edge_case",
+  "road": {
+    "lanes": 3,
+    "lane_width_m": 3.5,
+    "length_m": 220,
+    "curvature": 0.00006,
+    "lane_visibility": 0.25
+  },
+  "ego_start": {
+    "x": 0.0,
+    "y": 5.25,
+    "speed_mps": 13.0,
+    "max_speed_mps": 16.0
+  },
+  "obstacles": [
+    {
+      "id": "fog_ghost_obstacle",
+      "type": "vehicle",
+      "x": 65.0,
+      "y": 5.25,
+      "vx": 6.0,
+      "vy": 0.0,
+      "width": 2.0,
+      "length": 4.5
+    },
+    {
+      "id": "fog_roadblock_debris",
+      "type": "roadblock",
+      "x": 125.0,
+      "y": 1.75,
+      "vx": 0.0,
+      "vy": 0.0,
+      "width": 1.5,
+      "length": 1.5
+    },
+    {
+      "id": "fog_slow_delivery",
+      "type": "truck",
+      "x": 150.0,
+      "y": 8.75,
+      "vx": 8.0,
+      "vy": 0.0,
+      "width": 2.4,
+      "length": 7.0
+    }
+  ]
+}

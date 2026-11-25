@@ -1,0 +1,50 @@
+{
+  "id": "highway_cruise_overtake",
+  "name": "Highway Cruise & Overtake",
+  "category": "highway",
+  "road": {
+    "lanes": 3,
+    "lane_width_m": 3.75,
+    "length_m": 300,
+    "curvature": 0.0,
+    "lane_visibility": 1.0
+  },
+  "ego_start": {
+    "x": 0.0,
+    "y": 5.625,
+    "speed_mps": 25.0,
+    "max_speed_mps": 30.0
+  },
+  "obstacles": [
+    {
+      "id": "slow_truck_lead",
+      "type": "truck",
+      "x": 75.0,
+      "y": 5.625,
+      "vx": 12.0,
+      "vy": 0.0,
+      "width": 2.5,
+      "length": 8.0
+    },
+    {
+      "id": "right_lane_cruiser",
+      "type": "vehicle",
+      "x": 40.0,
+      "y": 1.875,
+      "vx": 18.0,
+      "vy": 0.0,
+      "width": 2.0,
+      "length": 4.6
+    },
+    {
+      "id": "far_ahead_car",
+      "type": "vehicle",
+      "x": 160.0,
+      "y": 9.375,
+      "vx": 24.0,
+      "vy": 0.0,
+      "width": 1.9,
+      "length": 4.5
+    }
+  ]
+}
